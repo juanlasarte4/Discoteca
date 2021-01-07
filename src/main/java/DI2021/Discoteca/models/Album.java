@@ -5,6 +5,7 @@ public class Album {
 	private String nombre;
 	private Formato formato;
 	private Integer anno;
+	private String metaInfo;
 	
 	public Album(String artista, String nombre, String anno, Formato formato) {
 		this.artista = artista;
@@ -34,6 +35,13 @@ public class Album {
 	
 	public void setFormato(Formato formato) {
 		this.formato = formato;
+	}
+	
+	public void setMetaInfo(String metainfo) {
+		this.metaInfo = metainfo;
+	}
+	public String getMetaInfo() {
+		return this.metaInfo;
 	}
 	
 	public String toString() {
