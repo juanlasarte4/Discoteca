@@ -56,8 +56,4 @@ public class Album {
 		this.anno = anno;
 	}
 	
-	public void altaTitulo() {
-		
-	}
-	
 }

@@ -36,12 +36,4 @@ public class Usuario {
 		return "The user is: " + this.name + ", " + email + " : " + this.password;
 	}
 	
-	public void altaCliente() {
-		
-	}
-	
-	public void canelarCliente() {
-		
-	}
-	
 }
